@@ -16,21 +16,21 @@ overview
 
 PyTalk is little client which allow you :
 
-* Instant Messaging with other people
+* **Instant Messaging with other people**
   Just let chat with people who are connected
-* Audio and Video conference
+* **Audio and Video conference**
   See people with who you speak. You can chat with 2 to 16 people together.
-* Send photos and documents
+* **Send photos and documents**
   Just let send the document you are talking about.
-* VCard
+* **VCard**
   Know more about your contacts vCard-based Avatar (XEP-0153)
-* Buddylist
+* **Buddylist**
   Synchronise all your contact informations
-* Interporability 
+* **Interporability**
   Ability to connect and interact with many of the
   most widely used instant messaging programs so you can stay in touch
   with everyone easily.  
   (People don't need to use PyTalk to chat with
   you).  
-* Find and add new friends Easily get connected with the people
-  who matter most
+* **Find and add new friends**
+  Easily get connected with the people who matter most
