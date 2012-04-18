@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pydns
+Version: 2.3.1
+Summary: Python DNS library
+Home-page: http://pydns.sourceforge.net/
+Author: Anthony Baxter and others
+Author-email: pydns-developer@lists.sourceforge.net
+License: Python license
+Description: Python DNS library:
+        
+Platform: UNKNOWN

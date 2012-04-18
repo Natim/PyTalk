@@ -1,0 +1,15 @@
+.bzrignore
+LICENSE.GPL
+LICENSE.PSF
+MANIFEST.in
+enum.py
+ez_setup.py
+setup.py
+enum.egg-info/PKG-INFO
+enum.egg-info/SOURCES.txt
+enum.egg-info/dependency_links.txt
+enum.egg-info/top_level.txt
+enum.egg-info/zip-safe
+test/__init__.py
+test/test_enum.py
+test/tools.py

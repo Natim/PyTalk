@@ -1,0 +1,10 @@
+include .bzrignore
+include LICENSE.GPL
+include LICENSE.PSF
+include enum.py
+include ez_setup.py
+include setup.py
+include test
+include test/__init__.py
+include test/test_enum.py
+include test/tools.py
