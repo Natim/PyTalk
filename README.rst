@@ -9,8 +9,6 @@ PyTalk is my Final Project to get my Degree in Computer Science from the School 
 
 At first, PyTalk should be jTalk a Jabber Client in Java using QtJambi. But I get in trouble with Qt Jambi and Mac OS X so I change and I take Python which is the faster way to program.
 
-If you are French and that you would like to talk about PyTalk : Lets go
-
 overview
 ========
 
