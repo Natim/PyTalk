@@ -15,6 +15,7 @@ overview
 ========
 
 PyTalk is little client which allow you :
+
 * Instant Messaging with other people
   Just let chat with people who are connected
 * Audio and Video conference
