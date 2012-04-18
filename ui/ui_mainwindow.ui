@@ -1,0 +1,234 @@
+<ui version="4.0" >
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>316</width>
+    <height>407</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>PyTalk</string>
+  </property>
+  <property name="windowIcon" >
+   <iconset>images/im-jabber.png</iconset>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac" >
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget" >
+   <layout class="QVBoxLayout" >
+    <item>
+     <widget class="QComboBox" name="statusBox" >
+      <item>
+       <property name="text" >
+        <string>Available</string>
+       </property>
+       <property name="icon" >
+        <iconset>images/status/available.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text" >
+        <string>Chat</string>
+       </property>
+       <property name="icon" >
+        <iconset>images/status/chat.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text" >
+        <string>Do not disturb</string>
+       </property>
+       <property name="icon" >
+        <iconset>images/status/busy.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text" >
+        <string>Away</string>
+       </property>
+       <property name="icon" >
+        <iconset>images/status/away.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text" >
+        <string>Extended Away</string>
+       </property>
+       <property name="icon" >
+        <iconset>images/status/extended-away.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text" >
+        <string>Offline</string>
+       </property>
+       <property name="icon" >
+        <iconset>images/status/offline.png</iconset>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="statusEdit" />
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>316</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuContacts" >
+    <property name="title" >
+     <string>Account</string>
+    </property>
+    <addaction name="actionConnection" />
+    <addaction name="actionDeconnection" />
+    <addaction name="actionQuit" />
+   </widget>
+   <widget class="QMenu" name="menuAffichage" >
+    <property name="title" >
+     <string>View</string>
+    </property>
+    <addaction name="actionOffline_buddies" />
+    <addaction name="actionAway_buddies" />
+   </widget>
+   <widget class="QMenu" name="menuHelp" >
+    <property name="title" >
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout" />
+    <addaction name="actionAboutQt" />
+   </widget>
+   <widget class="QMenu" name="menuBuddies" >
+    <property name="title" >
+     <string>Buddies</string>
+    </property>
+    <addaction name="actionAdd_a_buddy" />
+    <addaction name="actionAdd_a_group" />
+   </widget>
+   <widget class="QMenu" name="menuTools" >
+    <property name="title" >
+     <string>Tools</string>
+    </property>
+    <addaction name="actionPreferences" />
+    <addaction name="actionConsole" />
+   </widget>
+   <addaction name="menuContacts" />
+   <addaction name="menuBuddies" />
+   <addaction name="menuAffichage" />
+   <addaction name="menuTools" />
+   <addaction name="menuHelp" />
+  </widget>
+  <action name="actionConnection" >
+   <property name="icon" >
+    <iconset>images/status/log-in.png</iconset>
+   </property>
+   <property name="text" >
+    <string>L&amp;og in</string>
+   </property>
+   <property name="shortcut" >
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionDeconnection" >
+   <property name="enabled" >
+    <bool>false</bool>
+   </property>
+   <property name="icon" >
+    <iconset>images/status/log-out.png</iconset>
+   </property>
+   <property name="text" >
+    <string>Log out</string>
+   </property>
+  </action>
+  <action name="actionOffline_buddies" >
+   <property name="checkable" >
+    <bool>true</bool>
+   </property>
+   <property name="text" >
+    <string>Offline buddies</string>
+   </property>
+  </action>
+  <action name="actionAway_buddies" >
+   <property name="checkable" >
+    <bool>true</bool>
+   </property>
+   <property name="checked" >
+    <bool>true</bool>
+   </property>
+   <property name="text" >
+    <string>Away buddies</string>
+   </property>
+  </action>
+  <action name="actionAbout" >
+   <property name="icon" >
+    <iconset>images/about.png</iconset>
+   </property>
+   <property name="text" >
+    <string>About pyTalk</string>
+   </property>
+  </action>
+  <action name="actionAboutQt" >
+   <property name="icon" >
+    <iconset>images/qt4.png</iconset>
+   </property>
+   <property name="text" >
+    <string>About Qt</string>
+   </property>
+  </action>
+  <action name="actionQuit" >
+   <property name="icon" >
+    <iconset>images/exit.png</iconset>
+   </property>
+   <property name="text" >
+    <string>&amp;Quit</string>
+   </property>
+   <property name="shortcut" >
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionAdd_a_buddy" >
+   <property name="icon" >
+    <iconset>images/plus.png</iconset>
+   </property>
+   <property name="text" >
+    <string>Add a buddy</string>
+   </property>
+  </action>
+  <action name="actionAdd_a_group" >
+   <property name="icon" >
+    <iconset>images/plus.png</iconset>
+   </property>
+   <property name="text" >
+    <string>Add a group</string>
+   </property>
+  </action>
+  <action name="actionPreferences" >
+   <property name="icon" >
+    <iconset>images/preferences.png</iconset>
+   </property>
+   <property name="text" >
+    <string>&amp;Preferences</string>
+   </property>
+   <property name="shortcut" >
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="actionConsole" >
+   <property name="text" >
+    <string>XML Console</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
