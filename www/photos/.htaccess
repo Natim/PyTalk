@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ([0-9]+)/([0-9]+)/$ /photos/index.php?dir=$1&debut=$2
+RewriteRule ([0-9]+)/$ /photos/index.php?dir=$1
